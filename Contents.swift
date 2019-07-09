@@ -34,7 +34,9 @@ class FacebookProfile{
         profileSchool = ""
         profileBirthday = ""
         profileFriendList = [String]()
+        //we will need to code a special function for our friendslist
         relationshipStatus = relationshipStatusThree //another design flaw that it will always default to "its complicated"
+        //for r.status - we will need to code a function for this to work
     }
     
     //Section 2. Functions that will support our Facebook Profile
